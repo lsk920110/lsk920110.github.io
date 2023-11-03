@@ -12,14 +12,14 @@ li.list-inline-item img {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 50px;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .card-img-part {
   border-radius: 25px;
   box-shadow: 1px 1px 2.5px 2.5px lightgrey;
   height: 300px;
   width: 300px;
-  /* padding : 15px; */
+  padding : 5px;
 }
 
 .card img {
@@ -36,7 +36,18 @@ a {
 a .card-text-part {
   color: rgb(108, 117, 125);
 }
+.card-text-part a {
+  color: rgb(108, 117, 125);
+}
 
 .subheading.mb-3 {
   margin-top: 50px;
+}
+
+.anchor-list {
+  display : flex;
+  flex-direction: row;
+}
+.anchor-list a {
+  margin : 5px;
 }
