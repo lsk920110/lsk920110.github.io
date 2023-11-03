@@ -1,0 +1,25 @@
+li.list-inline-item img{
+  margin: 5px;
+  
+}
+
+.card {
+    /* border : 1px solid black; */
+    box-shadow: 1px 1px 1.5px 1.5px grey;
+    padding : 25px;
+    min-height: 100px;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+  cursor: pointer;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+
